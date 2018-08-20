@@ -95,7 +95,7 @@ train auto
 data dims = 324  
 class_num = 2  
 labels = [1, 2]  
-total_count = [1000, 1000]  
+total_count = [10, 10]  
 error_count = [0, 0]  
 accurate = [ 1.  1.]  
 total accurate = 1.0  
@@ -106,7 +106,7 @@ model_name: model/blink_detect.48x32.binary.xml
 data dims = 324  
 class_num = 2  
 labels = [1, 2]  
-total_count = [500, 500]  
+total_count = [10, 10]  
 error_count = [0, 0]  
 accurate = [ 1.  1.]  
 total accurate = 1.0  
@@ -114,7 +114,7 @@ total accurate = 1.0
 ***
 #五、示例二: 手写体数字识别项目    
 ##（1）项目说明
-&emsp;&emsp;使用mnist数据库的部分数据。示例项目的训练样本2400，测试样本2600。
+&emsp;&emsp;使用mnist数据库的部分数据。示例项目的训练样本2400，测试样本2400。
 
 ![Image text](resources/digits/0.jpg)
 ![Image text](resources/digits/1.jpg)

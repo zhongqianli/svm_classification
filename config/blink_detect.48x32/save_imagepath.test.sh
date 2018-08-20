@@ -1,7 +1,9 @@
 #!/bin/sh
+pre_pwd=`pwd`
+cd ../../
 
 image_dir_list=(
-	"E:/0-myWorkSpace/python27/svm_classify/resources/blink_detect.48x32/test"
+	"./resources/blink_detect.48x32/test"
 )
 
 class1_list_file="test/class1.lst"
@@ -30,3 +32,5 @@ kw_2="close_eye"
 
 save_imagepath $image_dir_list $class1_list_file $kw_1
 save_imagepath $image_dir_list $class2_list_file $kw_2
+
+mv test $pre_pwd

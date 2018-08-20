@@ -6,6 +6,7 @@ test*.py
 *.xml
 *.zip
 *.lst
+*.log
 model
 testing_data.txt
 training_data.txt
