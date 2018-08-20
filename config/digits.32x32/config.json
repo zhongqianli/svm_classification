@@ -1,0 +1,109 @@
+{
+  "description":
+  {
+    "version" : 1.0,
+    "object label_listfile" : "label_listfile means label and listfile which includes imagepaths.",
+    "object svm" : "svm config.",
+    "class num limits" : "no"
+  },
+  "data":
+  {
+    "image_channel": 1,
+    "feature_type": "hog_cv2.32x32"
+  },
+  "svm":
+  {
+    "model_name": "model/digits.32x32.svm_hog.xml",
+    "kernel" : "linear",
+    "autotrain": true,
+    "binary_classify": false,
+    "c": 2.67,
+    "gamma": 5.383
+  },
+  "train_label_listfile":
+  {
+    "0":
+    [
+      "./config/digits.32x32/train/class0.lst"
+    ],
+    "1":
+    [
+      "./config/digits.32x32/train/class1.lst"
+    ],
+    "2":
+    [
+      "./config/digits.32x32/train/class2.lst"
+    ],
+    "3":
+    [
+      "./config/digits.32x32/train/class3.lst"
+    ],
+    "4":
+    [
+      "./config/digits.32x32/train/class4.lst"
+    ],
+    "5":
+    [
+      "./config/digits.32x32/train/class5.lst"
+    ],
+    "6":
+    [
+      "./config/digits.32x32/train/class6.lst"
+    ],
+    "7":
+    [
+      "./config/digits.32x32/train/class7.lst"
+    ],
+    "8":
+    [
+      "./config/digits.32x32/train/class8.lst"
+    ],
+    "9":
+    [
+      "./config/digits.32x32/train/class9.lst"
+    ]
+  },
+  "test_label_listfile":
+  {
+    "0":
+    [
+      "./config/digits.32x32/test/class0.lst"
+    ],
+    "1":
+    [
+      "./config/digits.32x32/test/class1.lst"
+    ],
+    "2":
+    [
+      "./config/digits.32x32/test/class2.lst"
+    ],
+    "3":
+    [
+      "./config/digits.32x32/test/class3.lst"
+    ],
+    "4":
+    [
+      "./config/digits.32x32/test/class4.lst"
+    ],
+    "5":
+    [
+      "./config/digits.32x32/test/class5.lst"
+    ],
+    "6":
+    [
+      "./config/digits.32x32/test/class6.lst"
+    ],
+    "7":
+    [
+      "./config/digits.32x32/test/class7.lst"
+    ],
+    "8":
+    [
+      "./config/digits.32x32/test/class8.lst"
+    ],
+    "9":
+    [
+      "./config/digits.32x32/test/class9.lst"
+    ]
+  }
+}

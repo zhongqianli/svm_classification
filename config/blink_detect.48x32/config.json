@@ -1,0 +1,109 @@
+{
+  "description":
+  {
+    "version" : 1.0,
+    "object label_listfile" : "label_listfile means label and listfile which includes imagepaths.",
+    "object svm" : "svm config.",
+    "class num limits" : "no"
+  },
+  "data":
+  {
+    "image_channel": 1,
+    "feature_type": "hog_cv2.48x32"
+  },
+  "svm":
+  {
+    "model_name": "model/blink_detect.48x32.binary.xml",
+    "kernel" : "linear",
+    "autotrain": true,
+    "binary_classify": true,
+    "c": 2.67,
+    "gamma": 5.383
+  },
+  "train_label_listfile":
+  {
+    "0":
+    [
+
+    ],
+    "1":
+    [
+      "./config/blink_detect.48x32/train/class1.lst"
+    ],
+    "2":
+    [
+      "./config/blink_detect.48x32/train/class2.lst"
+    ],
+    "3":
+    [
+
+    ],
+    "4":
+    [
+
+    ],
+    "5":
+    [
+
+    ],
+    "6":
+    [
+
+    ],
+    "7":
+    [
+
+    ],
+    "8":
+    [
+
+    ],
+    "9":
+    [
+
+    ]
+  },
+  "test_label_listfile":
+  {
+    "0":
+    [
+
+    ],
+    "1":
+    [
+      "./config/blink_detect.48x32/test/class1.lst"
+    ],
+    "2":
+    [
+      "./config/blink_detect.48x32/test/class2.lst"
+    ],
+    "3":
+    [
+
+    ],
+    "4":
+    [
+
+    ],
+    "5":
+    [
+
+    ],
+    "6":
+    [
+
+    ],
+    "7":
+    [
+
+    ],
+    "8":
+    [
+
+    ],
+    "9":
+    [
+
+    ]
+  }
+}

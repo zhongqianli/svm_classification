@@ -1,0 +1,11 @@
+.idea
+__pycache__
+*.pyc
+temp
+test*.py
+*.xml
+*.zip
+*.lst
+model
+testing_data.txt
+training_data.txt
